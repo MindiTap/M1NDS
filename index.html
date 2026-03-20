@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="M1NDS — разработчик и создатель. Современные сайты, Telegram-боты, премиум UI/UX."/>
+  <title>M1NDS — Developer / Creator</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+
+<!-- ═══════════════ HEADER ═══════════════ -->
+<header id="header">
+  <nav>
+    <a href="#" class="logo">M1NDS</a>
+    <div class="nav-links">
+      <a href="#hero">Главная</a>
+      <a href="#projects">Проекты</a>
+      <a href="#skills">Навыки</a>
+      <a href="#contact">Контакты</a>
+    </div>
+  </nav>
+</header>
+
+<!-- ═══════════════ HERO ═══════════════ -->
+<section id="hero" class="hero">
+  <div class="hero-content">
+    <h1>M1NDS</h1>
+    <h2>Developer / Creator</h2>
+    <p>Создаю современные цифровые продукты в строгом минималистичном стиле</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-primary">Мои проекты</a>
+      <a href="#contact"  class="btn btn-outline">Связаться</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ PROJECTS ═══════════════ -->
+<section id="projects">
+  <h2 class="section-title">Проекты</h2>
+  <div class="projects-grid">
+
+    <!-- Project 1 — MINDCASINO -->
+    <div class="project-card"
+         data-title="MINDCASINO"
+         data-desc="Telegram-бот казино с играми, балансом, ставками и лидербордом"
+         data-link="https://t.me/MINDCAZINO_bot"
+         data-img="img/mindcasino.jpg">
+      <div class="project-image">
+        <img src="img/mindcasino.jpg" alt="MINDCASINO">
+        <div class="project-overlay"></div>
+      </div>
+      <div class="project-info">
+        <h3 class="project-title">MINDCASINO</h3>
+        <p class="project-desc">Telegram-бот казино с играми и системой ставок</p>
+        <button class="btn-project open-modal">Открыть</button>
+      </div>
+    </div>
+
+    <!-- Project 2 — M1NDS Clothing -->
+    <div class="project-card"
+         data-title="M1NDS Clothing"
+         data-desc="Сайт бренда одежды в духе ACRONYM × Nike Tech. Современный минимализм, адаптивный дизайн, премиум атмосфера."
+         data-link="#"
+         data-img="img/clothing.jpg">
+      <div class="project-image">
+        <img src="img/clothing.jpg" alt="M1NDS Clothing">
+        <div class="project-overlay"></div>
+      </div>
+      <div class="project-info">
+        <h3 class="project-title">M1NDS Clothing</h3>
+        <p class="project-desc">Современный сайт бренда одежды</p>
+        <button class="btn-project open-modal">Смотреть</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════ SKILLS ═══════════════ -->
+<section id="skills">
+  <h2 class="section-title">Навыки</h2>
+  <div class="skills-grid">
+
+    <div class="skill-item">
+      <h3 class="skill-name">HTML / CSS / JS</h3>
+      <div class="progress-outer"><div class="progress-inner" data-width="58"></div></div>
+      <div class="skill-percent">58%</div>
+    </div>
+
+    <div class="skill-item">
+      <h3 class="skill-name">UI / UX дизайн</h3>
+      <div class="progress-outer"><div class="progress-inner" data-width="43"></div></div>
+      <div class="skill-percent">43%</div>
+    </div>
+
+    <div class="skill-item">
+      <h3 class="skill-name">Telegram Bots</h3>
+      <div class="progress-outer"><div class="progress-inner" data-width="49"></div></div>
+      <div class="skill-percent">49%</div>
+    </div>
+
+    <div class="skill-item">
+      <h3 class="skill-name">Node.js / Backend</h3>
+      <div class="progress-outer"><div class="progress-inner" data-width="21"></div></div>
+      <div class="skill-percent">21%</div>
+    </div>
+
+    <div class="skill-item">
+      <h3 class="skill-name">Python</h3>
+      <div class="progress-outer"><div class="progress-inner" data-width="96"></div></div>
+      <div class="skill-percent">96%</div>
+    </div>
+
+    <div class="skill-item">
+      <h3 class="skill-name">C#</h3>
+      <div class="progress-outer"><div class="progress-inner" data-width="32"></div></div>
+      <div class="skill-percent">32%</div>
+    </div>
+
+    <div class="skill-item">
+      <h3 class="skill-name">C++</h3>
+      <div class="progress-outer"><div class="progress-inner" data-width="7"></div></div>
+      <div class="skill-percent">7%</div>
+    </div>
+
+    <div class="skill-item">
+      <h3 class="skill-name">Lua</h3>
+      <div class="progress-outer"><div class="progress-inner" data-width="98"></div></div>
+      <div class="skill-percent">98%</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════ CONTACT ═══════════════ -->
+<section id="contact">
+  <h2 class="section-title">Давай создадим что-то интересное</h2>
+  <div class="contact-content">
+
+    <div class="contact-left">
+      <h3>Связаться со мной</h3>
+      <a href="https://t.me/MindiTap" target="_blank" class="telegram-big">@MindiTap</a>
+      <p style="color:#888; max-width:420px;">Пиши в любое время — постараюсь ответить максимально быстро.</p>
+    </div>
+
+    <form id="contactForm">
+      <input   type="text"  id="name"     placeholder="Имя"                  required>
+      <input   type="email" id="email"    placeholder="Email"                 required>
+      <input   type="text"  id="telegram" placeholder="Telegram (@username)">
+      <textarea             id="message"  placeholder="Сообщение"             required></textarea>
+      <button type="submit">Отправить</button>
+    </form>
+
+  </div>
+</section>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer>
+  <p>© 2026 M1NDS — сделано с душой</p>
+</footer>
+
+<!-- ═══════════════ POPUP ═══════════════ -->
+<div class="popup" id="popup">
+  <h3>Отправлено 🚀</h3>
+  <p>Проверь почту — я уже ответил</p>
+</div>
+
+<!-- Scripts -->
+<script src="script.js"></script>
+
+</body>
+</html>
